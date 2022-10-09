@@ -3,3 +3,76 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.header-top{
+    padding:1rem 0;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.header-bottom{
+padding: 0.8rem 0;
+text-align: center;
+border: 1px solid black;
+}
+.header-bottom a{
+    text-decoration: none;
+    /* border: 1px solid black; */
+    margin: 0 1rem;
+    padding: 0.2rem 0.5rem;
+}
+.header-bottom a:hover{
+    color: red;
+    /* text-decoration: underline; */
+    background-color: blueviolet;
+}
+
+main{
+    width:75vw;
+    margin:2rem auto;
+}
+
+/* ====================================================================== */
+.Headlines{
+    height: 350px;
+    background-image: url('https://gumlet.assettype.com/newslaundry%2F2020-10%2Fefdcc32e-16e9-4a95-b69e-cbf2d077e476%2FHafta_YT.jpg?auto=format%2Ccompress&format=webp&w=700&dpr=1.0');
+    border: 1px solid black;
+    position: relative;
+}
+.Headlines h2{
+    /* text-align: right; */
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    right: 9rem;
+    color: blue;
+    /* background-color: blueviolet; */
+    /* padding: 1rem; */
+}
+
+
+
+/* =================================================== */
+.topstory{grid-area: topstory;}
+.national{grid-area: national;}
+.international{ grid-area: international;}
+
+.main-part{
+    margin: 2rem 0;
+    border: 1px solid black;
+    display: grid;
+    grid-template-areas:
+    "topstory topstory"
+    "national national"
+    "international international"
+    "politics busicness"
+    "tech sports"
+    "cricket entertatment"
+    "image video"
+    ;
+}
+
+.main-part section{
+    border: 1px solid black;
+}
