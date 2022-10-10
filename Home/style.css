@@ -22,10 +22,11 @@ header{
 padding: 0.8rem 0;
 text-align: center;
 border: 1px solid black;
-background-color: blue;
+background-color:purple;
 }
 .header-bottom a{
     text-decoration: none;
+    color: white;
     /* border: 1px solid black; */
     margin: 0 1rem;
     padding: 0.2rem 0.5rem;
@@ -50,7 +51,7 @@ top: 137px;
 height: 75vh;
 width: 10vw;
 border: 1px solid black;
-background-image: url('https://tpc.googlesyndication.com/simgad/5319811913444457106');
+background-image: url('https://tpc.googlesyndication.com/daca_images/simgad/3375160033503682754');
 background-size: cover;
 }
 
@@ -62,12 +63,22 @@ right: 0;
 height: 75vh;
 width: 10vw;
 border: 1px solid black;
-background-image: url('https://tpc.googlesyndication.com/simgad/5319811913444457106');
+background-image: url('https://tpc.googlesyndication.com/simgad/367188368275824930');
 background-size: cover;
 }
 
 
-
+.add{
+    height: 20vh;
+    border: 1px solid black;
+    width: 100%;
+    background-image: url('https://tpc.googlesyndication.com/simgad/6439254544114199192');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.add1{
+    background-image: url('https://s0.2mdn.net/simgad/11523487898654520011');
+}
 
 
 
@@ -182,4 +193,5 @@ footer div{
     height: 40vh;
    width: 75vw;
    margin: auto;
+   background-color: black;
 }
