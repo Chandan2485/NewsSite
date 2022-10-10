@@ -5,16 +5,24 @@
 }
 
 
+header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
 .header-top{
     padding:1rem 0;
     border: 1px solid black;
     text-align: center;
+    background-color: aqua;
 }
 
 .header-bottom{
 padding: 0.8rem 0;
 text-align: center;
 border: 1px solid black;
+background-color: blue;
 }
 .header-bottom a{
     text-decoration: none;
@@ -30,8 +38,53 @@ border: 1px solid black;
 
 main{
     width:75vw;
-    margin:2rem auto;
+    margin:8.5rem auto;
+    margin-bottom: 2rem;
+    border: 1px solid black;
 }
+
+.add-left{
+position: fixed;
+top: 0;
+top: 137px;
+height: 75vh;
+width: 10vw;
+border: 1px solid black;
+background-image: url('https://tpc.googlesyndication.com/simgad/5319811913444457106');
+background-size: cover;
+}
+
+
+.add-right{
+position: fixed;
+top: 137px;
+right: 0;
+height: 75vh;
+width: 10vw;
+border: 1px solid black;
+background-image: url('https://tpc.googlesyndication.com/simgad/5319811913444457106');
+background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ====================================================================== */
 .Headlines{
@@ -39,6 +92,7 @@ main{
     background-image: url('https://gumlet.assettype.com/newslaundry%2F2020-10%2Fefdcc32e-16e9-4a95-b69e-cbf2d077e476%2FHafta_YT.jpg?auto=format%2Ccompress&format=webp&w=700&dpr=1.0');
     border: 1px solid black;
     position: relative;
+    z-index: -10;
 }
 .Headlines h2{
     /* text-align: right; */
@@ -82,9 +136,9 @@ main{
     ;
 }
 
-.main-part section{
+/* .main-part section{
     /* border: 1px solid black; */
-}
+/* }  */
 
 
 
@@ -117,4 +171,15 @@ main{
 }
 .img img{
     width: 100%;
+}
+
+
+/* footer{
+    text-align: center;
+} */
+footer div{
+    border: 1px solid black;
+    height: 40vh;
+   width: 75vw;
+   margin: auto;
 }
