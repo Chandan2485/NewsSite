@@ -57,10 +57,19 @@ main{
 .topstory{grid-area: topstory;}
 .national{grid-area: national;}
 .international{ grid-area: international;}
+.politics{grid-area: politics;}
+.busicness{grid-area: busicness;}
+.tech{ grid-area: tech;}
+.sports{grid-area: sports;}
+.cricket{grid-area: cricket;}
+.entertatment{ grid-area: entertatment;}
+.image{grid-area: image;}
+.video{grid-area: video;}
+
 
 .main-part{
     margin: 2rem 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: grid;
     grid-template-areas:
     "topstory topstory"
@@ -74,5 +83,38 @@ main{
 }
 
 .main-part section{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+
+
+
+/* =================================== */
+
+
+
+.topstory_news{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+}
+
+.news_1 img{
+    width: 100%;
+}
+
+
+
+
+.news2 a{
+    display: flex;
+}
+
+.img{
+  /* height: 100px; */
+  width: 200px;
+  margin-right: 2rem;
+}
+.img img{
+    width: 100%;
 }
