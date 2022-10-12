@@ -173,6 +173,7 @@ background-size: cover;
 
 .news2 a{
     display: flex;
+    align-items: center;
 }
 
 .img{
