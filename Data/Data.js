@@ -923,3 +923,5 @@ let data=[
     ]
 },
     ]
+
+    localStorage.setItem("apiData",JSON.stringify(data))
