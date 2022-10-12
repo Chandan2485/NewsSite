@@ -128,8 +128,6 @@ background-size: cover;
 .sports{grid-area: sports;}
 .cricket{grid-area: cricket;}
 .entertatment{ grid-area: entertatment;}
-.image{grid-area: image;}
-.video{grid-area: video;}
 
 
 .main-part{
@@ -143,14 +141,12 @@ background-size: cover;
     "politics busicness"
     "tech sports"
     "cricket entertatment"
-    "image video"
     ;
 }
 
-/* .main-part section{
-    /* border: 1px solid black; */
-/* }  */
-
+.main-part section{
+    border: 1px solid black;
+}
 
 
 
@@ -174,10 +170,10 @@ background-size: cover;
 .news2 a{
     display: flex;
     align-items: center;
+    /* border: 1px solid black; */
 }
 
 .img{
-  /* height: 100px; */
   width: 200px;
   margin-right: 2rem;
 }
@@ -186,9 +182,7 @@ background-size: cover;
 }
 
 
-/* footer{
-    text-align: center;
-} */
+
 footer div{
     border: 1px solid black;
     height: 40vh;
